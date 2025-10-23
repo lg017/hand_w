@@ -21,7 +21,7 @@ def predictDigit(image):
     return result
 
 # Streamlit 
-st.set_page_config(page_title='Reconocimiento de Dígitos escritos a mano', layout='wide')
+st.set_page_config(page_title='Reconocimiento de numeros escritos a mano :p', layout='wide')
 st.title('Reconocimiento de Dígitos escritos a mano')
 st.subheader("Dibuja el digito en el panel  y presiona  'Predecir'")
 
@@ -63,5 +63,6 @@ st.sidebar.text("digitos escritos a mano.")
 st.sidebar.text("Basado en desarrollo de Vinay Uniyal")
 #st.sidebar.text("GitHub Repository")
 #st.sidebar.write("[GitHub Repo Link](https://github.com/Vinay2022/Handwritten-Digit-Recognition)")
+
 
 
